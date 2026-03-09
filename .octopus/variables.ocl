@@ -1,0 +1,5 @@
+variable "something" {
+    value "wow" {
+        environment = ["development", "production", "staging"]
+    }
+}
