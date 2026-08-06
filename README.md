@@ -1,2 +1,2 @@
 # example-script-repo
-For an example git sourced script weeeewwwww555e
+For an example git sourced script weeeewwwww555ee
