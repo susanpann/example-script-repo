@@ -1,0 +1,18 @@
+name = "asd"
+violation_action = "block"
+
+conditions {
+    rego = <<-EOT
+            package asd
+            
+            default result := {"allowed": true}
+            EOT
+}
+
+scope {
+    rego = <<-EOT
+            package asd
+            
+            default evaluate := true
+            EOT
+}
